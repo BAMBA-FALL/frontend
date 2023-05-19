@@ -1,6 +1,6 @@
 import React from 'react';
-import Article from '../components/Article';
-import TopArticle from '../components/TopArticle';
+import Article from './Article';
+import TopArticle from './TopArticle';
 import styles from '../styles/Home.module.css';
 import Head from 'next/head';
 

@@ -7,8 +7,12 @@ import { faBookmark } from '@fortawesome/free-solid-svg-icons';
 function TopArticle() {
   return (
     <div className={styles.topContainer}>
-   
-      <Image src="/exemplePic.png"alt="une description de la photo" width={700}height={400}/>
+      <Image
+        src="/examplePic.png"
+        alt="une description de la photo"
+        width={700}
+        height={400}
+      />
       <div className={styles.topText}>
         <h2>Un titre</h2>
         <FontAwesomeIcon icon={faBookmark} className={styles.bookmarkIcon} />

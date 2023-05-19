@@ -13,12 +13,11 @@ function Article() {
       </div>
       <h4 style={{ textAlign: 'right' }}>Un auteur</h4>
       <div className={styles.divider}></div>
-      <img src="../image" />
       <Image
-        src="/public"
+        src="/examplePic.png"
         alt="une description de la photo"
-        width={200}
-        height={124}
+        width={400}
+        height={224}
       />
       <p>Une description</p>
     </div>
